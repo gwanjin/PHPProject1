@@ -1,3 +1,7 @@
+<?php
+require_once './database/dbconnect.php';
+session_start(); ?>
+
 <!DOCTYPE HTML>
 <!--
 	Industrious by TEMPLATED
@@ -14,7 +18,9 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-
+	<?php 
+	   
+	?>
 		<!-- Header -->
 		<?php
             include './include/header.php';
