@@ -36,7 +36,7 @@
 					<div class="col-6 col-12-medium">
     					<!-- Form -->
     					<h3>Sign In</h3>
-    					<form method="post" action="">
+    					<form method="post" action="membercheck.php">
             				<div class="row gtr-uniform">
                 				<div class="col-12">
         							<input type="email" name="email" id="email" value="" placeholder="Email" />
@@ -44,18 +44,18 @@
         						<div class="col-12">
         							<input type="password" name="password" id="password" value="" placeholder="Password" />
         						</div>
-        						<div class="col-6 col-12-medium">
-            						<ul class="actions">
-        								<li><a href="#" class="button primary">Sign In</a></li>
-        							</ul>
-        						</div>
+        						<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" value="Sign In" class="primary" /></li>
+									</ul>
+								</div>
             				</div>
     					</form>
     				</div>
     				<div class="col-6 col-12-medium">
     					<!-- Form -->
     					<h3>Sign Up</h3>
-    					<form method="post" action="get.php">
+    					<form method="post" action="membercheck.php">
             				<div class="row gtr-uniform">
                 				<div class="col-12">
         							<input type="email" name="email" id="email" value="" placeholder="Email" />
@@ -67,11 +67,8 @@
         							<input type="text" name="name" id="name" value="" placeholder="Name" />
         						</div>
         						<div class="col-12">
-        							<input type="text" name="hint" id="hint" value="" placeholder="Password Hint" />
-        						</div>
-        						<div class="col-12">
 									<ul class="actions">
-										<li><input type="submit" value="Submit Form" class="primary" /></li>
+										<li><input type="submit" value="Sign Up" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</div>

@@ -1,5 +1,5 @@
 <?php 
-include_once './database/dbinfo.php';
+include "dbinfo.php";
 
 try {
     $dbconn = new PDO('mysql:host='.$db['host'].';dbname='.$db['dbname'].';charset=utf8',$db['user'],$db['password']);
